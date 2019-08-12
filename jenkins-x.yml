@@ -1,0 +1,9 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: sam-jx-test-staging
+pipelineConfig:
+  agent: {}
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: sam-jx-test-staging
+  pipelines: {}
